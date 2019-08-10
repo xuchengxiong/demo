@@ -1,0 +1,30 @@
+platform :ios, '8.0'
+
+inhibit_all_warnings!
+use_frameworks!
+
+target 'ITService' do
+    pod 'AFNetworking'
+    pod 'Mantle'
+    pod 'MBProgressHUD'
+    pod 'SVProgressHUD'
+    pod 'SDWebImage', '~> 4.4.1'
+    pod 'Base64'
+    pod 'IQKeyboardManager'
+    pod 'MJRefresh'
+    pod 'Masonry'
+    pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+    pod 'MJExtension'
+    pod 'FMDB'
+    pod 'ZJAnimationPopView'
+    pod 'LKDBHelper', '~> 2.5.1'
+    pod 'YBImageBrowser'
+    
+    # 轮播图
+    pod 'HYBLoopScrollView', '~> 3.2.1'
+    # 公告栏
+    pod 'RollingNotice'
+    # 照片选择器
+    pod 'HXPhotoPicker', '~> 2.2.3'
+
+end
